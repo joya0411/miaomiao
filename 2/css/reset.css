@@ -24,6 +24,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	font:12px "SimSun","宋体","Arial Narrow",HELVETICA;
 	line-height: 1.5;/*中文行高较合适*/
 }
 ol, ul {

@@ -61,7 +61,7 @@
 	position: absolute;
 	font-family: Verdana,Arial;
 	right:26px;
-	top:16px;
+	top:26px;
 	color:#575757;
 }
 .commonModC .head  a:hover {
@@ -80,14 +80,14 @@
 	position: absolute;
 	font-family: Verdana,Arial;
 	right:26px; 
-	top:16px;
+	top:26px;
 	color:#575757;
 }
 .commonModD .head  a:hover {
 	color:red;
 }
 .commonModD .head ul {
-	margin-top:16px;
+	margin-top:26px;
 	margin-right:65px;
 	position: relative;
 
