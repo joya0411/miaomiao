@@ -20,28 +20,32 @@ $(function() {
 
  //tab选项卡:商家认领和商家公告切换
     //初始状态
-    $(".tab1 .head ul li:eq(0)").addClass("active");
-    $(".tab1 .head ul li:eq(0)").children().addClass("active");
-    $(".tab1 .main ul:eq(1)").hide();
+    $(".tab1 .head ul li").eq(0).addClass("active");
+    $(".tab1 .head ul li.notic a").addClass("active");
 
     $(".tab1 .head ul li").hover(function(){
         //头部切换
         $(this).addClass("active").siblings().removeClass("active");
 
-        var index=$(".tab1 .head ul li").index(this);
-        $(".tab1 .head ul li a")
-            .eq(index).addClass("active")
-            .parent().siblings().children().removeClass("active");
+        $(this).siblings().children().removeClass("active");
+        $(this).children().addClass("active");
+            
+
         //文本切换 
-        $(".tab1 .main ul").eq(index).show().siblings().hide();
+        var index=$(".tab1 .head ul li").index(this);        
+        $(".tab1 .main ul").eq(index).siblings().hide();
+        $(".tab1 .main ul").eq(index).show();
 
     })
-   //tab选项卡:亲子教育
-   $(".tab .main:eq(1)").hide();
+   //tab选项卡:亲子教育、房产理念
+   $(".tab .head ul").each(function() {
+        $(this).children().eq(0).addClass("active");
+    });
    $(".tab .head ul li").hover(function(){
         $(this).addClass("active").siblings().removeClass("active");
         var index=$(".tab .head ul li").index(this);
-        $(".tab .main").eq(index).show()
+        $(".tab .main").eq(index)
             .siblings(".main").hide();
+        $(".tab .main").eq(index).show();
    })
 });
