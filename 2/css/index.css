@@ -356,26 +356,27 @@
 	cursor: pointer;
 }
 .tab1 .head ul li.active {
-	background: url("../images/mod6-active.png")  center top;
+	background: url("../images/mod6-active.gif")  center top;
 }
 .notic a {
 	width: 123px;
 	height: 32px;
 	border-right:1px solid #e0dcde;
 	display: block;
-	background: url("../images/mod6-tab-1.png") center top;
+	background: url("../images/mod6-tab-1.gif") center top;
 }
 .notic a.active {
-	background: url("../images/mod6-tab-hover1.png")  center top;
+	background: url("../images/mod6-tab-hover1.gif")  center top;
+
 }
 .claim a {
 	width: 123px;
 	height: 32px;
 	display: block;
-	background: url("../images/mod6-tab-2.png")  center top;
+	background: url("../images/mod6-tab-2.gif")  center top;
 }
 .claim a.active {
-	background: url("../images/mod6-tab-hover2.png")  center top;
+	background: url("../images/mod6-tab-hover2.gif")  center top;
 }
 .tab1 .main  {
 	padding:8px;
@@ -1040,7 +1041,20 @@
 	text-indent: -999em;
 }
 .mod16 .main {
+	position: relative;
+	width: 900px;
+	height: 316px;
 	margin:10px 30px;
+	overflow: hidden;
+}
+.mod16 .scrollable {
+	width: 3600px;
+	position: absolute;
+}
+.mod16 .main ul {
+	width: 900px;
+	float: left;
+	display: inline;
 }
 .mod16 .main ul li{
 	float: left;
@@ -1070,7 +1084,7 @@
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);
 	background: rgba(0,0,0,0.2);
 }
-.mod16 .main-l {
+.mod16 .prev {
 	position:absolute;
 	width: 17px;
 	height: 47px;
@@ -1079,7 +1093,7 @@
 	z-index: 1;
 	cursor:pointer;
 }
-.mod16 .main-r {
+.mod16 .next {
 	position:absolute;
 	width: 17px;
 	height: 47px;
