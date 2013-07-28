@@ -68,7 +68,19 @@ $(function() {
     }
   });
 
-
+ //返回到顶部
+  
+  $(window).scroll(function(){
+    if ($(this).scrollTop() >= 450) {
+        $("#scrolltop").fadeIn("fast");
+    }else {
+         $("#scrolltop").fadeOut("fast");
+    }
+  })
+ $("#scrolltop a").click(function(){ 
+    $("html,body").animate({"scrollTop":"0"},500); 
+    return false;
+ })
 
 
 
