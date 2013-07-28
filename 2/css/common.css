@@ -187,3 +187,25 @@ a:hover {
 	display: block;
 }
 /*=============尾部结束=============*/
+
+#scrolltop {
+	width:48px;
+	height: 42px;
+	padding:8px;
+	position:fixed;
+	top:50%;
+	right: 0;
+	z-index: 100;
+	border:1px solid #E3DCD5;
+	background: #F4F1EE;
+	text-align:center;
+	display: none;
+
+}
+#scrolltop a {
+	
+	display: block;
+}
+#scrolltop a h3 {
+	font-weight: normal;
+}
