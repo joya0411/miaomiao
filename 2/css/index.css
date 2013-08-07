@@ -544,7 +544,7 @@
 	background: url("../images/mod8-title.png") no-repeat;
 	line-height: 26px;
 }
-.mod8 .main h4 {
+.mod8 .main div {
 	font-size: 14px;
 	padding-left:8px;
 }
@@ -552,6 +552,7 @@
 	margin-left:5px;
 	color: #000;
 	font-weight: bold;
+
 }
 .mod8 .main dl {
 	width: 452px;
