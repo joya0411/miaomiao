@@ -642,7 +642,7 @@
 	
 	
 }
-.mod9 .main dl.main-l dt {
+.mod9 .main dl.main-l dd {
 	position: absolute;
 	bottom:1px;
 	left:1px;
@@ -651,7 +651,7 @@
 	background: rgba(0,0,0,0.2);;
 	text-align: center;
 }
-.mod9 .main dl.main-l dt a {
+.mod9 .main dl.main-l dd a {
 	color: #fff;
 	height: 28px;
 	line-height: 28px;
@@ -709,7 +709,7 @@
 	display: block;
 	
 }
-.mod9 .main .main-r dl dt {
+.mod9 .main .main-r dl dd {
 	position: absolute;
 	bottom:2px;
 	left:2px;
@@ -718,7 +718,7 @@
 	background: rgba(0,0,0,0.2);
 	text-align: center;
 }
-.mod9 .main .main-r dl dt a {
+.mod9 .main .main-r dl dd a {
 	color: #fff;
 	height: 28px;
 	line-height: 28px;
