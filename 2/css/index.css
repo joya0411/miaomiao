@@ -544,7 +544,7 @@
 	background: url("../images/mod8-title.png") no-repeat;
 	line-height: 26px;
 }
-.mod8 .main h4 {
+.mod8 .main div {
 	font-size: 14px;
 	padding-left:8px;
 }
@@ -552,22 +552,26 @@
 	margin-left:5px;
 	color: #000;
 	font-weight: bold;
+
 }
 .mod8 .main dl {
 	width: 452px;
 }
-.mod8 .main dl dd {
+.mod8 .main dl dt {
 	margin-bottom: 18px;
 	*margin-bottom:14px;
 }
-.mod8 .main dl dt{
+.mod8 .main dl dt#h {
+	display: none;
+}
+.mod8 .main dl dd{
 	margin-bottom:14px;
 
 	}
-.mod8 .main dl dd a.first {
+.mod8 .main dl dt a.first {
 	margin:0;
 }
-.mod8 .main dl dd a {
+.mod8 .main dl dt a {
 	position: relative;
 	display: block;
 	float: left;
@@ -575,13 +579,14 @@
 	
 }
 
-.mod8 .main dl dd a img {
+.mod8 .main dl dt a img {
 	width: 132px;
 	height: 132px;
 	border:1px solid #ddd3cd;
 	padding: 1px;
+	display: block;
 }
-.mod8 .main dl dd a span {
+.mod8 .main dl dt a span {
 	position: absolute;
 	height: 28px;
 	line-height: 28px;
@@ -642,7 +647,7 @@
 	
 	
 }
-.mod9 .main dl.main-l dt {
+.mod9 .main dl.main-l dd {
 	position: absolute;
 	bottom:1px;
 	left:1px;
@@ -651,7 +656,7 @@
 	background: rgba(0,0,0,0.2);;
 	text-align: center;
 }
-.mod9 .main dl.main-l dt a {
+.mod9 .main dl.main-l dd a {
 	color: #fff;
 	height: 28px;
 	line-height: 28px;
@@ -709,7 +714,7 @@
 	display: block;
 	
 }
-.mod9 .main .main-r dl dt {
+.mod9 .main .main-r dl dd {
 	position: absolute;
 	bottom:2px;
 	left:2px;
@@ -718,7 +723,7 @@
 	background: rgba(0,0,0,0.2);
 	text-align: center;
 }
-.mod9 .main .main-r dl dt a {
+.mod9 .main .main-r dl dd a {
 	color: #fff;
 	height: 28px;
 	line-height: 28px;
@@ -913,11 +918,11 @@
 	padding:10px;
 
 }
-.mod13 .main dd {
+.mod13 .main dt {
 	width: 212px;
 	
 }
-.mod13 .main dd a {
+.mod13 .main dt a {
 	width: 208px;
 	height: 141px;
 	color: #fff;
@@ -931,7 +936,7 @@
 	height: 141px;
 	display: block;
 }
-.mod13 .main dd a span {
+.mod13 .main dt a span {
 	position: absolute;
 	bottom:0;
 	left:1px;
@@ -942,7 +947,7 @@
 	background: rgba(0,0,0,0.2);
 	text-align: center;
 }
-.mod13 .main  dl dt {
+.mod13 .main  dl dd {
 	width: 188px;
 	border-bottom:1px dotted #8f8f8f;
 	background: url("../images/list-li.png") no-repeat 10px 50%;
