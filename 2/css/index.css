@@ -561,6 +561,9 @@
 	margin-bottom: 18px;
 	*margin-bottom:14px;
 }
+.mod8 .main dl dt#h {
+	display: none;
+}
 .mod8 .main dl dd{
 	margin-bottom:14px;
 
@@ -581,6 +584,7 @@
 	height: 132px;
 	border:1px solid #ddd3cd;
 	padding: 1px;
+	display: block;
 }
 .mod8 .main dl dt a span {
 	position: absolute;
