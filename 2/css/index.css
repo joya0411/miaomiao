@@ -913,11 +913,11 @@
 	padding:10px;
 
 }
-.mod13 .main dd {
+.mod13 .main dt {
 	width: 212px;
 	
 }
-.mod13 .main dd a {
+.mod13 .main dt a {
 	width: 208px;
 	height: 141px;
 	color: #fff;
@@ -931,7 +931,7 @@
 	height: 141px;
 	display: block;
 }
-.mod13 .main dd a span {
+.mod13 .main dt a span {
 	position: absolute;
 	bottom:0;
 	left:1px;
@@ -942,7 +942,7 @@
 	background: rgba(0,0,0,0.2);
 	text-align: center;
 }
-.mod13 .main  dl dt {
+.mod13 .main  dl dd {
 	width: 188px;
 	border-bottom:1px dotted #8f8f8f;
 	background: url("../images/list-li.png") no-repeat 10px 50%;
